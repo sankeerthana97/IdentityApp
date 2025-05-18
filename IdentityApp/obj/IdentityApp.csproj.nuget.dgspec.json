@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sadr\\source\\repos\\IdentityApp\\IdentityApp\\IdentityApp.csproj": {}
+    "C:\\Users\\HP\\Source\\Repos\\IdentityApp\\IdentityApp\\IdentityApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sadr\\source\\repos\\IdentityApp\\IdentityApp\\IdentityApp.csproj": {
+    "C:\\Users\\HP\\Source\\Repos\\IdentityApp\\IdentityApp\\IdentityApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sadr\\source\\repos\\IdentityApp\\IdentityApp\\IdentityApp.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Source\\Repos\\IdentityApp\\IdentityApp\\IdentityApp.csproj",
         "projectName": "IdentityApp",
-        "projectPath": "C:\\Users\\sadr\\source\\repos\\IdentityApp\\IdentityApp\\IdentityApp.csproj",
-        "packagesPath": "C:\\Users\\sadr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sadr\\source\\repos\\IdentityApp\\IdentityApp\\obj\\",
+        "projectPath": "C:\\Users\\HP\\Source\\Repos\\IdentityApp\\IdentityApp\\IdentityApp.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Source\\Repos\\IdentityApp\\IdentityApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sadr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,6 +58,20 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -83,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
