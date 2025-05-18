@@ -32,7 +32,7 @@ builder.Services.AddAuthentication()
     })
     .AddCookie("Cookies", options =>
     {
-        options.LoginPath = "/login.html";
+        options.LoginPath = "/gin.html";
     });
 
 
