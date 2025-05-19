@@ -3,8 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\source\\repos\\IdentityApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2EA45898-6AB9-408A-8702-1D2D179FB285}|IdentityApp\\IdentityApp.csproj|c:\\users\\hp\\source\\repos\\identityapp\\identityapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EA45898-6AB9-408A-8702-1D2D179FB285}|IdentityApp\\IdentityApp.csproj|solutionrelative:identityapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EA45898-6AB9-408A-8702-1D2D179FB285}|IdentityApp\\IdentityApp.csproj|c:\\users\\hp\\source\\repos\\identityapp\\identityapp\\wwwroot\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2EA45898-6AB9-408A-8702-1D2D179FB285}|IdentityApp\\IdentityApp.csproj|solutionrelative:identityapp\\wwwroot\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EA45898-6AB9-408A-8702-1D2D179FB285}|IdentityApp\\IdentityApp.csproj|c:\\users\\hp\\source\\repos\\identityapp\\identityapp\\wwwroot\\register.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EA45898-6AB9-408A-8702-1D2D179FB285}|IdentityApp\\IdentityApp.csproj|solutionrelative:identityapp\\wwwroot\\register.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EA45898-6AB9-408A-8702-1D2D179FB285}|IdentityApp\\IdentityApp.csproj|c:\\users\\hp\\source\\repos\\identityapp\\identityapp\\wwwroot\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EA45898-6AB9-408A-8702-1D2D179FB285}|IdentityApp\\IdentityApp.csproj|solutionrelative:identityapp\\wwwroot\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EA45898-6AB9-408A-8702-1D2D179FB285}|IdentityApp\\IdentityApp.csproj|c:\\users\\hp\\source\\repos\\identityapp\\identityapp\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EA45898-6AB9-408A-8702-1D2D179FB285}|IdentityApp\\IdentityApp.csproj|solutionrelative:identityapp\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EA45898-6AB9-408A-8702-1D2D179FB285}|IdentityApp\\IdentityApp.csproj|c:\\users\\hp\\source\\repos\\identityapp\\identityapp\\wwwroot\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2EA45898-6AB9-408A-8702-1D2D179FB285}|IdentityApp\\IdentityApp.csproj|solutionrelative:identityapp\\wwwroot\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EA45898-6AB9-408A-8702-1D2D179FB285}|IdentityApp\\IdentityApp.csproj|c:\\users\\hp\\source\\repos\\identityapp\\identityapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2EA45898-6AB9-408A-8702-1D2D179FB285}|IdentityApp\\IdentityApp.csproj|solutionrelative:identityapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2EA45898-6AB9-408A-8702-1D2D179FB285}|IdentityApp\\IdentityApp.csproj|c:\\users\\hp\\source\\repos\\identityapp\\identityapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2EA45898-6AB9-408A-8702-1D2D179FB285}|IdentityApp\\IdentityApp.csproj|solutionrelative:identityapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EA45898-6AB9-408A-8702-1D2D179FB285}|IdentityApp\\IdentityApp.csproj|c:\\users\\hp\\source\\repos\\identityapp\\identityapp\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EA45898-6AB9-408A-8702-1D2D179FB285}|IdentityApp\\IdentityApp.csproj|solutionrelative:identityapp\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EA45898-6AB9-408A-8702-1D2D179FB285}|IdentityApp\\IdentityApp.csproj|c:\\users\\hp\\source\\repos\\identityapp\\identityapp\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EA45898-6AB9-408A-8702-1D2D179FB285}|IdentityApp\\IdentityApp.csproj|solutionrelative:identityapp\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EA45898-6AB9-408A-8702-1D2D179FB285}|IdentityApp\\IdentityApp.csproj|c:\\users\\hp\\source\\repos\\identityapp\\identityapp\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EA45898-6AB9-408A-8702-1D2D179FB285}|IdentityApp\\IdentityApp.csproj|solutionrelative:identityapp\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EA45898-6AB9-408A-8702-1D2D179FB285}|IdentityApp\\IdentityApp.csproj|c:\\users\\hp\\source\\repos\\identityapp\\identityapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EA45898-6AB9-408A-8702-1D2D179FB285}|IdentityApp\\IdentityApp.csproj|solutionrelative:identityapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EA45898-6AB9-408A-8702-1D2D179FB285}|IdentityApp\\IdentityApp.csproj|c:\\users\\hp\\source\\repos\\identityapp\\identityapp\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EA45898-6AB9-408A-8702-1D2D179FB285}|IdentityApp\\IdentityApp.csproj|solutionrelative:identityapp\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EA45898-6AB9-408A-8702-1D2D179FB285}|IdentityApp\\IdentityApp.csproj|c:\\users\\hp\\source\\repos\\identityapp\\identityapp\\identityapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2EA45898-6AB9-408A-8702-1D2D179FB285}|IdentityApp\\IdentityApp.csproj|solutionrelative:identityapp\\identityapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +66,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "register.html",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\IdentityApp\\IdentityApp\\wwwroot\\register.html",
+              "RelativeDocumentMoniker": "IdentityApp\\wwwroot\\register.html",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\IdentityApp\\IdentityApp\\wwwroot\\register.html",
+              "RelativeToolTip": "IdentityApp\\wwwroot\\register.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-18T19:50:10.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\IdentityApp\\IdentityApp\\appsettings.json",
+              "RelativeDocumentMoniker": "IdentityApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\IdentityApp\\IdentityApp\\appsettings.json",
+              "RelativeToolTip": "IdentityApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-18T19:34:48.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "app.js",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\IdentityApp\\IdentityApp\\wwwroot\\app.js",
+              "RelativeDocumentMoniker": "IdentityApp\\wwwroot\\app.js",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\IdentityApp\\IdentityApp\\wwwroot\\app.js",
+              "RelativeToolTip": "IdentityApp\\wwwroot\\app.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-18T19:36:22.312Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -26,15 +117,145 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\IdentityApp\\IdentityApp\\Program.cs",
               "RelativeDocumentMoniker": "IdentityApp\\Program.cs",
               "ToolTip": "C:\\Users\\HP\\source\\repos\\IdentityApp\\IdentityApp\\Program.cs",
               "RelativeToolTip": "IdentityApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T17:23:16.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\IdentityApp\\IdentityApp\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "IdentityApp\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\IdentityApp\\IdentityApp\\Services\\TokenService.cs",
+              "RelativeToolTip": "IdentityApp\\Services\\TokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T19:35:28.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\IdentityApp\\IdentityApp\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "IdentityApp\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\IdentityApp\\IdentityApp\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "IdentityApp\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T19:33:57.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\IdentityApp\\IdentityApp\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "IdentityApp\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\IdentityApp\\IdentityApp\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "IdentityApp\\Controllers\\TasksController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T19:34:18.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\IdentityApp\\IdentityApp\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "IdentityApp\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\IdentityApp\\IdentityApp\\wwwroot\\index.html",
+              "RelativeToolTip": "IdentityApp\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-18T19:35:59.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\IdentityApp\\IdentityApp\\wwwroot\\style.css",
+              "RelativeDocumentMoniker": "IdentityApp\\wwwroot\\style.css",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\IdentityApp\\IdentityApp\\wwwroot\\style.css",
+              "RelativeToolTip": "IdentityApp\\wwwroot\\style.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-18T19:36:35.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\IdentityApp\\IdentityApp\\Models\\Task.cs",
+              "RelativeDocumentMoniker": "IdentityApp\\Models\\Task.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\IdentityApp\\IdentityApp\\Models\\Task.cs",
+              "RelativeToolTip": "IdentityApp\\Models\\Task.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T19:37:39.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "login.html",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\IdentityApp\\IdentityApp\\wwwroot\\login.html",
+              "RelativeDocumentMoniker": "IdentityApp\\wwwroot\\login.html",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\IdentityApp\\IdentityApp\\wwwroot\\login.html",
+              "RelativeToolTip": "IdentityApp\\wwwroot\\login.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-18T19:36:12.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\IdentityApp\\IdentityApp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "IdentityApp\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\IdentityApp\\IdentityApp\\Models\\User.cs",
+              "RelativeToolTip": "IdentityApp\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T19:37:17.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\IdentityApp\\IdentityApp\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "IdentityApp\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\IdentityApp\\IdentityApp\\AppDbContext.cs",
+              "RelativeToolTip": "IdentityApp\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T19:44:40.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IdentityApp",
+              "DocumentMoniker": "C:\\Users\\HP\\Source\\Repos\\IdentityApp\\IdentityApp\\IdentityApp.csproj",
+              "RelativeDocumentMoniker": "IdentityApp\\IdentityApp.csproj",
+              "ToolTip": "C:\\Users\\HP\\Source\\Repos\\IdentityApp\\IdentityApp\\IdentityApp.csproj",
+              "RelativeToolTip": "IdentityApp\\IdentityApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-18T19:34:23.813Z",
               "EditorCaption": ""
             }
           ]

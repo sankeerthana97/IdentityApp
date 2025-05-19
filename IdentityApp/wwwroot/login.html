@@ -1,10 +1,32 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <title></title>
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <div class="auth-type">
+                <label>
+                    <input type="radio" name="authType" value="cookie" checked>
+                    Cookie Login
+                </label>
+                <label>
+                    <input type="radio" name="authType" value="jwt">
+                    JWT Login
+                </label>
+            </div>
 
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+
+        <p>Don't have an account? <a href="/register.html">Register here</a></p>
+        <div id="errorMessage" class="error"></div>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>

@@ -3,37 +3,40 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using System;
 using System.Text;
+using TaskManager;
+using TaskManager.Models;
+using TaskManager.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services
+// Add services to the container
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddMemoryCache();
 
-// Configure SQL Server
+// Database Configuration
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Add Identity
+// Identity Configuration
 builder.Services.AddIdentity<User, IdentityRole>()
     .AddEntityFrameworkStores<AppDbContext>()
     .AddDefaultTokenProviders();
 
-// Configure Authentication Schemes
+// Authentication Configuration
 builder.Services.AddAuthentication(options =>
 {
-    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
     options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
 })
 .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, options =>
 {
     options.LoginPath = "/login.html";
     options.AccessDeniedPath = "/login.html";
+    options.ExpireTimeSpan = TimeSpan.FromHours(1);
 })
-.AddJwtBearer(options =>
+.AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, options =>
 {
     options.TokenValidationParameters = new TokenValidationParameters
     {
@@ -48,16 +51,32 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-// Authorization Policies
+// Authorization Configuration
 builder.Services.AddAuthorization(options =>
 {
-    options.AddPolicy("Admin", policy => policy.RequireRole("Admin"));
-    options.AddPolicy("User", policy => policy.RequireRole("User"));
+    options.AddPolicy("Admin", policy =>
+        policy.RequireRole("Admin")
+              .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme));
+
+    options.AddPolicy("User", policy =>
+        policy.RequireRole("User")
+              .AddAuthenticationSchemes(CookieAuthenticationDefaults.AuthenticationScheme));
 });
+
+// Register services
+builder.Services.AddScoped<TokenService>();
 
 var app = builder.Build();
 
-// Middleware
+// Initialize roles
+using (var scope = app.Services.CreateScope())
+{
+    var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+    await roleManager.CreateAsync(new IdentityRole("Admin"));
+    await roleManager.CreateAsync(new IdentityRole("User"));
+}
+
+// Middleware pipeline
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseAuthentication();

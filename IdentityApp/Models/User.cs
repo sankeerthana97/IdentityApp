@@ -1,6 +1,6 @@
-﻿namespace IdentityApp.Models
+﻿using Microsoft.AspNetCore.Identity;
+
+namespace TaskManager.Models
 {
-    public class User
-    {
-    }
+    public class User : IdentityUser { }
 }
